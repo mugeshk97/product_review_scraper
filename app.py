@@ -10,7 +10,6 @@ Created on Wed May  6 07:13:26 2020
 from urllib.request import urlopen as uReq
 
 import pymongo
-# from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from flask import Flask, render_template, request
